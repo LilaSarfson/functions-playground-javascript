@@ -9,13 +9,13 @@
  * La función está casi cimpleta pero hay que modificar la línea 13
  */
 
- function agua_necesaria(km) {
-    let agua = 1
-    return agua
- }
+function agua_necesaria(km) {
+   let agua = km / 2
+   return agua
+}
 
- let agua = agua_necesaria(5)
- console.log("Para recorrer 5km , el ciclista necesitaria 2.5 litros de agua: " , agua)
+let agua = agua_necesaria(1)
+console.log("Para recorrer 5km , el ciclista necesitaria 2.5 litros de agua: ", agua)
 
- let agua2 = agua_necesaria(5)
- console.log("Para recorrer 20km , el ciclista necesitaria  litros de agua: " , agua2)
+let agua2 = agua_necesaria(10)
+console.log("Para recorrer 20km , el ciclista necesitaria  litros de agua: ", agua2)
